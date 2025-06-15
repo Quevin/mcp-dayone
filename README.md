@@ -43,8 +43,11 @@ This MCP server is designed for **zero-configuration installation** - you only n
 ### 1. Install Prerequisites (One-time setup)
 
 **Day One CLI Installation:**
-1. Download and install Day One from the Mac App Store or Day One website
-2. The Day One CLI is **automatically included** with the app - no separate installation needed!
+1. Download and install Day One from the Mac App Store or Day One website.
+2. You will need to run this command to install the Day One CLI ([docs](https://dayoneapp.com/guides/day-one-for-mac/command-line-interface-cli/)):
+```
+sudo bash /Applications/Day\ One.app/Contents/Resources/install_cli.sh
+```
 3. Verify it's working: `dayone2 --version`
 
 **Python and uv:**
